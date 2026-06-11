@@ -3,6 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Profecia das Chamas Gêmeas • Luiz Fernando</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', system_ui, sans-serif; }
+        .title-font { font-family: 'Playfair Display', Georgia, serif; letter-spacing: -2px; }
+        .dark-bg { background-color: #0a0a0a; }
+        .section-title { position: relative; display: inline-block; }
+        .section-title:after { content: ''; position: absolute; bottom: -8px; left: 0; width: 60px; height: 3px; background: linear-gradient(to right, #ef4444, #3b82f6); }
+        .arc-card { transition: all 0.3s ease; }
+        .arc-card:hover { transform: translateY(-6px); }
+        .flame-btn { transition: all 0.2s ease; }
+        .flame-btn:hover { background-color: #ef4444; color: white; }
+    </style>
+</head>
+<body class="dark-bg text-white">
+    <nav class="bg-black/80 border-b border-white/10 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-x-3">
+                <div class="w-9 h-9 bg-gradient-to-br from-red-600 to-blue-600 rounded-full flex items-center justify-center">
+                    <i class="fa-solid fa-fire text-white text-xl"></i>
+                </div>
+                <span class="font-bold text-2xl tracking-tighter">Chamas Gêmeas</span>
+            </div>
+            <a href="#arcos" class="px-5 py-2.5 bg-white text-black text-sm font-semibold rounded-full flex items-center gap-x-2">
+                <i class="fa-solid fa-download"></i>
+                <span>Baixar PDFs</span>
+            </a>
+        </div>
+    </nav>
+
+    <header class="max-w-6xl mx-auto px-6 pt-16 pb-20 text-center">
+        <h1 class="title-font text-7xl md:text-8xl font-bold tracking-tighter leading-none mb-4">
+            A PROFECIA<br>DAS CHAMAS<br>GÊMEAS
+        </h1>
+        <p class="text-2xl text-zinc-400 mb-8">Dois irmãos. Uma profecia cruel.<br>E o fogo que pode destruir ou salvar tudo.</p>
+        <a href="#arcos" class="px-8 py-4 bg-white text-black font-semibold rounded-2xl inline-flex items-center gap-x-3">
+            Começar a ler os arcos <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </header>
+
+    <section id="arcos" class="max-w-6xl mx-auto px-6 py-16 border-t border-white/10">
+        <h2 class="section-title text-4xl font-bold mb-10">Ler os Arcos</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="arc-card bg-zinc-900 border border-white/10 rounded-3xl p-7">
+                <div class="px-4 py-1 bg-red-600/20 text-red-400 text-sm font-mono rounded-full w-fit mb-4">ARCO 01</div>
+                <h3 class="font-bold text-2xl mb-3">O Despertar das Chamas</h3>
+                <p class="text-zinc-400 text-sm mb-6">O nascimento da profecia e o primeiro encontro dos irmãos com seu destino.</p>
+                <a href="pdfs/arco-01.pdf" download class="flame-btn w-full text-center py-3.5 bg-white/5 hover:bg-red-600 border border-white/20 rounded-2xl font-semibold flex items-center justify-center gap-x-2">
+                    Ler / Baixar Arco 1 <i class="fa-solid fa-download"></i>
+                </a>
+            </div>
+
+            <div class="arc-card bg-zinc-900 border border-white/10 rounded-3xl p-7">
+                <div class="px-4 py-1 bg-red-600/20 text-red-400 text-sm font-mono rounded-full w-fit mb-4">ARCO 02</div>
+                <h3 class="font-bold text-2xl mb-3">Irmãos de Fogo</h3>
+                <p class="text-zinc-400 text-sm mb-6">A rivalidade entre Kael e Ragnar explode.</p>
+                <a href="pdfs/arco-02.pdf" download class="flame-btn w-full text-center py-3.5 bg-white/5 hover:bg-red-600 border border-white/20 rounded-2xl font-semibold flex items-center justify-center gap-x-2">
+                    Ler / Baixar Arco 2 <i class="fa-solid fa-download"></i>
+                </a>
+            </div>
+
+            <div class="arc-card bg-zinc-900 border border-white/10 rounded-3xl p-7">
+                <div class="px-4 py-1 bg-red-600/20 text-red-400 text-sm font-mono rounded-full w-fit mb-4">ARCO 03</div>
+                <h3 class="font-bold text-2xl mb-3">O Rei e o Portador</h3>
+                <p class="text-zinc-400 text-sm mb-6">Kael e Ragnar são forçados a escolher lados.</p>
+                <a href="pdfs/arco-03.pdf" download class="flame-btn w-full text-center py-3.5 bg-white/5 hover:bg-red-600 border border-white/20 rounded-2xl font-semibold flex items-center justify-center gap-x-2">
+                    Ler / Baixar Arco 3 <i class="fa-solid fa-download"></i>
+                </a>
+            </div>
+
+            <div class="arc-card bg-zinc-900 border border-white/10 rounded-3xl p-7">
+                <div class="px-4 py-1 bg-red-600/20 text-red-400 text-sm font-mono rounded-full w-fit mb-4">ARCO 04</div>
+                <h3 class="font-bold text-2xl mb-3">Guerra dos Deuses</h3>
+                <p class="text-zinc-400 text-sm mb-6">O conflito celestial chega ao mundo mortal.</p>
+                <a href="pdfs/arco-04.pdf" download class="flame-btn w-full text-center py-3.5 bg-white/5 hover:bg-red-600 border border-white/20 rounded-2xl font-semibold flex items-center justify-center gap-x-2">
+                    Ler / Baixar Arco 4 <i class="fa-solid fa-download"></i>
+                </a>
+            </div>
+
+            <div class="arc-card bg-zinc-900 border border-white/10 rounded-3xl p-7">
+                <div class="px-4 py-1 bg-red-600/20 text-red-400 text-sm font-mono rounded-full w-fit mb-4">ARCO 05</div>
+                <h3 class="font-bold text-2xl mb-3">A Chama Final</h3>
+                <p class="text-zinc-400 text-sm mb-6">O clímax da profecia.</p>
+                <a href="pdfs/arco-05.pdf" download class="flame-btn w-full text-center py-3.5 bg-white/5 hover:bg-red-600 border border-white/20 rounded-2xl font-semibold flex items-center justify-center gap-x-2">
+                    Ler / Baixar Arco 5 <i class="fa-solid fa-download"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-white/10 py-10 text-center text-sm text-zinc-500">
+        © Luiz Fernando 2026 • Todos os direitos reservados
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Profecia das Chamas Gêmeas | Site Oficial</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
